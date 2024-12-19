@@ -1,0 +1,30 @@
+{
+  "name": "vue-editor",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "core-js": "^3.25.3",
+    "dedent": "^1.5.3",
+    "emoji-mart-vue-fast": "^15.0.3",
+    "html-to-slack": "^0.3.4",
+    "htmlparser2": "^6.1.0",
+    "nuxt": "^2.15.8",
+    "quill-emoji": "^0.2.0",
+    "quill-image-extend-module": "^1.1.2",
+    "quill-mention": "2.2.7",
+    "slack-message-parser": "^3.0.2",
+    "vue": "^2.7.10",
+    "vue-quill-editor": "^3.0.6",
+    "vue-server-renderer": "^2.7.10",
+    "vue-template-compiler": "^2.7.10"
+  },
+  "devDependencies": {
+    "sass": "^1.79.5"
+  }
+}

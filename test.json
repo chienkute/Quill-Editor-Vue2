@@ -1,0 +1,49 @@
+{
+  "type": "rich_text",
+  "elements": [
+    {
+      "type": "rich_text_section",
+      "elements": [
+        { "type": "text", "text": "Hello " },
+        { "type": "text", "text": "World ", "style": { "bold": true } },
+        {
+          "type": "text",
+          "text": "123123 ",
+          "style": { "bold": true, "italic": true }
+        },
+        { "type": "text", "text": "!", "style": { "bold": true } }
+      ]
+    },
+    {
+      "type": "rich_text_list",
+      "style": "ordered",
+      "elements": [
+        {
+          "type": "rich_text_section",
+          "elements": [
+            {
+              "type": "text",
+              "text": "First Item",
+              "style": {
+                "bold": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "rich_text_section",
+          "elements": [
+            {
+              "type": "text",
+              "text": "Second Item",
+              "style": {
+                "bold": true
+              }
+            }
+          ]
+        }
+      ],
+      "indent": 0
+    }
+  ]
+}
